@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #151518;
+    color: #ffff;
+    max-width: 100vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 30px 20px;
+    font-size: 4vh;
+}
+
+.nada{
+    height: 300px;
+    background-color: #1F1F24;
+    color: #ffff;
+}
+
+footer {
+    background-color: #151518;
+    color: #ffff;
+    max-width: 100vw;
+    padding: 30px 20px;
+}
+
+#logo-rodape {
+    width: 15vw;
+    min-width: 5vw;
+}
+
+.rodape {
+    padding: 30px 20px;
+}

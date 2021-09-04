@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -17,12 +17,6 @@ header {
     font-size: 4vh;
 }
 
-.nada{
-    height: 300px;
-    background-color: #1F1F24;
-    color: #ffff;
-}
-
 footer {
     background-color: #151518;
     color: #ffff;
@@ -37,4 +31,234 @@ footer {
 
 .rodape {
     padding: 30px 20px;
+=======
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #1F1F24;
+}
+
+.disposicao-de-elementos{
+    width: 90%;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.organizacao-da-tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 0px;
+    height: 50%;
+    width: 100%;
+}
+
+.caixas-dos-icones{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-redes-sociais{
+    height: 52px;
+    width: 60px;
+}
+
+.titulo-das-redes-sociais{
+    height: 12px;
+    width: 60px;
+}
+
+.disposicao-dos-titulos{
+    width: 72px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-da-secao-de-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    padding: 12px 0;
+}
+
+#sombra{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15);
+    border-radius: 25px;
+}
+
+.imagem-dos-funcionarios{
+    height: 150px;
+    width: 150px;
+    margin: 0;
+}
+
+.organizacao-dos-elementos-do-conheca-nosso-time{
+    min-height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.texto-da-secao-de-conheca-nosso-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    min-height: 200px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100%;
+}
+
+.card-dos-funcionarios{
+    height: 252px;
+    width: 152px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15);
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.disposicao-dos-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 40px;
+    min-height: 300px;
+    background-color: white;
+}
+
+.nome-dos-funcionarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.descricao-dos-funcionarios{
+    height: 90%;
+    width: 90%;
+    padding: 4px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.texto-da-questoes-frequentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+.disposicao-dos-elementos-das-perguntas-frequentes {
+    width: 90%;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px 0;
+    background-color: #1F1F1F;
+}
+
+.titulo-da-secao-de-perguntas-frequentes{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    background-color: #1F1F1F;
+    color: white;
+    padding: 0 12px;
+}
+
+.formatacao-da-pergunta{
+    list-style: square;
+    list-style-position: inside;
+    padding: 4px;
+    background-color: #D2C2B0;
+}
+
+.formatacao-da-resposta{
+    list-style-position: inside;
+    list-style: none;
+    padding: 12px;
+    background-color: white;
+    margin: auto;
+    text-align: justify;
+}
+
+.imagem-perguntas-frequentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 152px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.texto-chamada-nosso-time{
+    background-color: #D2C2B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    padding: 12px 0;
+}
+
+#imagem-nosso-time{
+    width: 100%;
+}
+
+.corpo-da-disposicao-de-funcionarios{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.centralizar-elementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.centralizar-texto{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
 }

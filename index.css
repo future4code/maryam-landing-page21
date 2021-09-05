@@ -117,7 +117,7 @@ body{
     flex-direction: column;
 }
 
-.texto-da-secao-de-conheca-nosso-time{
+.texto-da-secao{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +205,7 @@ body{
     list-style-position: inside;
     padding: 4px;
     background-color: #D2C2B0;
+    text-align: center;
 }
 
 .formatacao-da-resposta{
@@ -261,4 +262,13 @@ body{
     margin: 0 auto;
     text-align: center;
     max-width: 800px;
+}
+
+img{
+    margin-top: 20px;
+}
+
+.imagem-cofrinho {
+    height: 500px;
+    width: 750px;
 }

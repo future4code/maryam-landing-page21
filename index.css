@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* cabecalho */
 header {
     background-color: #151518;
     color: #ffff;
@@ -16,6 +17,7 @@ header {
     font-size: 4vh;
 }
 
+/* rodapé */
 footer {
     background-color: #151518;
     color: #ffff;
@@ -32,6 +34,7 @@ footer {
     padding: 30px 20px;
 }
 
+/* estilizações gerais */
 body {
     display: grid;
     grid-template-rows: 20vh 1fr 1fr 1fr 1fr 1fr 1fr 40vh;
@@ -63,7 +66,9 @@ p {
     flex-direction: column;
     background-color: white;
 }
+/* estilizações gerais */
 
+/* rede sociais  */
 .organizacao-da-tabela{
     display: flex;
     justify-content: center;
@@ -107,7 +112,9 @@ p {
     width: 100%;
     padding: 12px 0;
 }
+/* rede sociais  */
 
+/* nosso time  */
 #sombra{
     box-shadow: 0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15);
     border-radius: 25px;
@@ -179,7 +186,9 @@ p {
     margin: auto;
     text-align: center;
 }
+/* nosso time  */
 
+/* perguntas frequentes  */
 .texto-da-questoes-frequentes{
     display: flex;
     justify-content: center;
@@ -239,7 +248,9 @@ p {
     margin: 0;
     padding: 0;
 }
+/* perguntas frequentes  */
 
+/* nosso time  */
 .texto-chamada-nosso-time{
     background-color: #D2C2B0;
     display: flex;
@@ -275,7 +286,9 @@ p {
     text-align: center;
     max-width: 800px;
 }
+/* nosso time  */
 
+/* imagens  */
 .imagem-mulher-segurando-dinheiro {
     width: 50vw;
     padding: 2vh;
@@ -290,6 +303,7 @@ p {
     width: 50vw;
     padding: 2vh;
 }
+/* imagens  */
 
 /* /* responsividade * */
 
